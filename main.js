@@ -1,8 +1,11 @@
 let count = 0
 
+let countEl = document.getElementById("count_el")
+
+
 function increment(){
   count += 1
-  document.getElementById("count_el").innerHTML = count
+  document.getElementById("count_el").textContent = count
 }
 
 function save(){
@@ -13,6 +16,11 @@ function save(){
   let countDashes = count + " - "
 
   saveEl.textContent += countDashes
+
+  countEl.textContent = 0
+
+  count= 0
+
 }
 
 

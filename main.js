@@ -12,7 +12,7 @@ function save(){
   let saveEl = document.getElementById("save_el")
   let countDashes = count + " - "
 
-  saveEl.innerHTML += countDashes
+  saveEl.textContent += countDashes
 }
 
 

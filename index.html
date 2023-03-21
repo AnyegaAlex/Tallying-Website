@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tallying Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title> People Tallying Sysytem</title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <h1> People Entered :</h1>
-    <h2 id="count_el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button> <!--put an onclick event listener to help tally the clicks the when the button is clicked it calls a function increment -->
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <p id="save_el">Previous Entries:</p>
+    <div id="cta-container">
+      <h1> People Seen :</h1>
+      <h2 id="count_el"> 0 </h2>
+      <div><button id="increment-btn" onclick="increment()">INCREMENT</button></div> <!--put an onclick event listener to help tally the clicks the when the button is clicked it calls a function increment -->
+      <div><button id="save-btn" onclick="save()">SAVE</button></div>
+      <p id="save_el">Previous Entries: </p>
+    </div>     
 	<script src="main.js"></script>
   </body>
 </html>

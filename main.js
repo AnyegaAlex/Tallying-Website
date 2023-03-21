@@ -1,5 +1,4 @@
 let count = 0
-
 let countEl = document.getElementById("count_el")
 
 
@@ -9,9 +8,7 @@ function increment(){
 }
 
 function save(){
-
   console.log(count)
-
   let saveEl = document.getElementById("save_el")
   let countDashes = count + " - "
 
@@ -20,7 +17,6 @@ function save(){
   countEl.textContent = 0
 
   count= 0
-
 }
 
 

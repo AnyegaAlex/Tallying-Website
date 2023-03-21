@@ -1,0 +1,78 @@
+/* General Styling*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+html{
+  background-color: gray;
+}
+
+/* Styling The button */
+button{
+  padding: 9px 35px;
+  margin: 4px;
+}
+
+#increment-btn{
+  color: #fff;
+  background-color: rgba(244, 23, 23, 0.717);
+  border-radius: 25px;
+}
+
+#increment-btn:hover{
+  background-color:rgba(244, 23, 23, 1.717) ;
+}
+
+
+#save-btn{
+  padding: 9px 57px;
+  color: #fff;
+  background-color: rgba(28, 207, 28, 0.79);
+  border-radius: 25px;
+}
+
+#save-btn:hover{
+  background-color:rgba(28, 207, 28, 1.79);
+}
+
+
+/* Styling The Container */
+p {
+  font-size:12px bold;
+}
+
+
+#cta-container{
+  border-radius: 50px;
+  padding-top: 15px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+  width: 50% auto;
+  height: 50vh auto;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 25%, 
+        rgba(152,68,183,1) 51%, 
+        rgba(255,53,127,1) 100%
+);  
+  animation: AnimateBG 20s ease infinite;
+  padding-bottom: 15px;
+
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
